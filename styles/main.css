@@ -1,0 +1,30 @@
+html{
+
+}
+
+body{
+  font-family: Ubuntu;
+  max-width: 1200px;
+  min-width: 900px;
+}
+
+.whole-part{
+
+}
+
+.top-part{
+
+}
+
+.bottom-part{
+
+}
+
+.table-contents{
+  width: 100%;
+}
+
+.table-contents td{
+  border: 0 3px 0 3px solid grey;
+
+}
