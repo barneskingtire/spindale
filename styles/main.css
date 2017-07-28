@@ -1,30 +1,35 @@
 html{
-
+  color: black;
 }
 
 body{
   font-family: Ubuntu;
-  max-width: 1200px;
-  min-width: 900px;
+  max-width: 1400px;
+  min-width: 700px;
 }
 
 .whole-part{
-
+  width: 100%;
 }
 
 .top-part{
-
+  width: 100%;
 }
 
 .bottom-part{
-
+  width: 100%;
 }
 
 .table-contents{
   width: 100%;
 }
 
-.table-contents td{
+.table-contents th{
   border: 0 3px 0 3px solid grey;
 
+}
+
+.table-contents i{
+  font-size: 100px;
+  color: rgb(41, 151, 216);
 }
