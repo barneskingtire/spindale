@@ -1,4 +1,32 @@
 html{
+  height: 100%;
+  font-size: 100%;
+}
+
+body{
+  font-family: 'Lato';
+  color: white;
+  min-height: 100%;
+}
+
+.landing{
+  background-color: rgb(50, 40, 50);
+}
+
+.navbar{
+  padding: 0.5rem;
+  background-color: rgb(60, 50, 60);
+}
+.navbar .logo{
+  position: relative;
+  left: 2rem;
+  /* resizing and optimization*/
+  width: 300px;
+  border-radius: 10px;
+}
+
+/*
+html{
   color: black;
 }
 
@@ -33,3 +61,4 @@ body{
   font-size: 100px;
   color: rgb(41, 151, 216);
 }
+*/
