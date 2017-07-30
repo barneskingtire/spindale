@@ -43,14 +43,10 @@ body.landing{
 /* bulletpoints */
 .bullet-points{
   position: relative;
-  display: table;
-  width: 100%;
 }
 
 .point{
-  display: table-cell;
   position: relative;
-  width: 33.3%;
   padding: 2rem;
   text-align: center;
 }

@@ -31,58 +31,6 @@ body.landing{
   border-radius: 10px;
 }
 
-/*main part */
-.main-content{
-  position: relative;
-  min-height: 600px;
-  background-image: url(../assets/images/glory1.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; /*might change this */
-}
-.main-content .main-title{
-  position: absolute;
-  top: 40%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
-  font-size: 4rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  text-shadow: 1px 1px 0px rgb(50,30,50);
-}
-
-/* bulletpoints */
-.bullet-points{
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.point{
-  position: relative;
-  padding: 2rem;
-  text-align: center;
-}
-
-.point .point-title{
-  font-size: 1.25rem;
-}
-
-.ion-radio-waves, .ion-card{
-  color: white;
-  font-size: 5rem;
-}
-
-.blue{
-  color: rgb(41, 151, 216);
-}
-
 .container{
   margin: 0 auto;
   max-width: 64rem;
@@ -109,40 +57,12 @@ body.landing{
   html{ font-size: 120%; }
 }
 
-/*
-html{
-  color: black;
+.clearfix::before,
+.clearfix::after{
+  content: " ";
+  display: table;
 }
 
-body{
-  font-family: Ubuntu;
-  max-width: 1400px;
-  min-width: 700px;
+.clearfix::after{
+  clear: both;
 }
-
-.whole-part{
-  width: 100%;
-}
-
-.top-part{
-  width: 100%;
-}
-
-.bottom-part{
-  width: 100%;
-}
-
-.table-contents{
-  width: 100%;
-}
-
-.table-contents th{
-  border: 0 3px 0 3px solid grey;
-
-}
-
-.table-contents i{
-  font-size: 100px;
-  color: rgb(41, 151, 216);
-}
-*/
