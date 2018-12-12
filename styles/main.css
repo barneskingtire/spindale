@@ -100,7 +100,7 @@ body.landing{
   }
 }
 
-/* larger screen */
+/* larger screen  */
 @media(min-width: 1024px){
   html{ font-size: 120%; }
 }
