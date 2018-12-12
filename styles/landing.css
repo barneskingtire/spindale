@@ -1,25 +1,12 @@
 body.landing{
-  background-color: rgb(50, 40, 50);
-}
-
-/* navbar */
-.navbar{
-  padding: 0.5rem;
-  background-color: rgb(60, 50, 60);
-}
-.navbar .logo{
-  position: relative;
-  left: 2rem;
-  /* resizing and optimization*/
-  width: 300px;
-  border-radius: 10px;
+  background-color: rgb(60, 60, 60);
 }
 
 /*main part */
 .main-content{
   position: relative;
-  min-height: 600px;
-  background-image: url(../assets/images/glory1.jpg);
+  min-height: 500px;
+  background-image: url(../assets/images/barnes_king_tire_front.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; /*might change this */
@@ -37,7 +24,61 @@ body.landing{
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  text-shadow: 1px 1px 0px rgb(50,30,50);
+  text-shadow: 2px 2px 0px rgb(50,30,50);
+}
+
+.services-content{
+  width: 70%;
+  margin: 0 auto;
+}
+.services-content h3{
+  text-align: center;
+  font-size: 2rem;
+}
+.services-list{
+  list-style: none;
+  padding: 0;
+}
+.services-list li{
+  display: inline-block;
+  width: 49%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 15%;
+  line-height: 0;
+}
+.services-list li *{
+  display: inline-block;
+}
+.services-list li .ion-settings{
+  font-size: 1.8rem;
+  padding: 0 1rem 0 0;
+}
+.services-list li h5{
+  font-size: 1.3rem
+}
+
+.biz-hours{
+  margin: 2rem 0;
+}
+.biz-hours .biz-table{
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid grey;
+}
+.biz-hours .biz-table caption{
+  border: 3px solid grey;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 0.3rem;
+  background-color: rgba(140, 140, 140, 0.4);
+
+}
+th, tr, td{
+  border: 1px solid grey;
+  text-align: center;
+  padding: 4px;
 }
 
 /* bulletpoints */
@@ -49,17 +90,64 @@ body.landing{
   position: relative;
   padding: 2rem;
   text-align: center;
+  opacity:0;
+  -webkit-transform: scaleX(0.9) translateY(3rem);
+  -moz-transform: scaleX(0.9) translateY(3rem);
+  transform: scaleX(0.9) translateY(3rem);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 .point .point-title{
   font-size: 1.25rem;
 }
 
-.ion-radio-waves, .ion-card{
+.map-text{
+  text-align: center;
+  font-size: 2rem;
+}
+.map {
+	height: 100%;
+}
+
+.ion-wifi, .ion-monitor, .ion-wrench{
   color: white;
   font-size: 5rem;
 }
 
 .blue{
   color: rgb(41, 151, 216);
+}
+
+@media(max-width: 680px){
+  .services-list li{
+    width: 100%;
+    position: relative;
+    left: 15%;
+    line-height: 0;
+  }
+}
+
+@media(max-width: 640px){
+  .services-list li{
+    width: 100%;
+    position: relative;
+    left: 15%;
+    line-height: 0;
+  }
+}
+
+/* larger screen */
+@media(max-width: 1024px){
+  .services-list li .ion-settings{
+    font-size: 1.3rem;
+    padding: 0 1rem 0 0;
+  }
+  .services-list li h5{
+    font-size: 1.0rem
+  }
 }

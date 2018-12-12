@@ -15,20 +15,30 @@ body{
   min-height: 100%;
 }
 body.landing{
-  background-color: rgb(50, 40, 50);
+  background-color: rgb(60, 60, 60);
 }
 
 /* navbar */
 .navbar{
   padding: 0.5rem;
-  background-color: rgb(60, 50, 60);
+  background-color: rgb(60, 60, 60);
 }
 .navbar .logo{
   position: relative;
   left: 2rem;
   /* resizing and optimization*/
-  width: 300px;
+  width: 200px;
   border-radius: 10px;
+}
+.navbar .call-us{
+  position: absolute;
+  right: 3rem;
+  top: -0.05rem;
+  display: inline-block;
+}
+.navbar .call-us *{
+  display: inline-block;
+  padding: 0 0 0 0.3rem;
 }
 
 .container{
@@ -36,20 +46,58 @@ body.landing{
   max-width: 64rem;
 }
 
+.ion-email, .ion-android-call{
+  font-size: 1.4rem;
+  position: relative;
+  top: 0.15rem;
+}
+
 /* mid/small screen */
 @media(min-width: 640px){
   html{ font-size: 112%; }
-    .column{
-      float: left;
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-    .column.full{ width: 100%; }
-    .column.two-thirds{ width: 66.7%; }
-    .column.half{ width: 50%; }
-    .column.third{ width: 33.3%; }
-    .column.fourth{ width: 25%; }
-    .column.flow-opposite{ float: right; }
+  .column{
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .column.full{ width: 100%; }
+  .column.two-thirds{ width: 66.7%; }
+  .column.half{ width: 50%; }
+  .column.third{ width: 33.3%; }
+  .column.fourth{ width: 25%; }
+  .column.flow-opposite{ float: right; }
+}
+
+@media(max-width: 800px){
+  .navbar{
+
+  }
+  .navbar .logo{
+    position: relative;
+    left: 10%;
+    padding: 1rem 0 0 0;
+    display: block;
+    /* resizing and optimization*/
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .navbar .call-us{
+    line-height: 0;
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0.5rem 0;
+    left: 0;
+    text-align: center;
+    top: 0;
+  }
+  .navbar .call-us *{
+    display: inline-block;
+    line-height: 0;
+    margin: 0 0 0.2rem 0;
+
+  }
 }
 
 /* larger screen */
@@ -66,3 +114,11 @@ body.landing{
 .clearfix::after{
   clear: both;
 }
+
+/*
+Laurie King
+barneskingtire@gmail.com
+barnesking
+
+github: barnesk1ng
+*/
