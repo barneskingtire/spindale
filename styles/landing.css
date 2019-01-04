@@ -116,13 +116,13 @@ th, tr, td{
 
 .numbers{
   text-align: center;
-  display: inline-flex;
 }
-.numbers h4{
-  display: inline-block;
+.numbers .sub{
+  text-align: center;
+  display: inline-flex;
   padding: 0 1em;
 }
-.numbers h4 a{
+.numbers .sub a{
   color: white;
 }
 
