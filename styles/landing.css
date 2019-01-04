@@ -120,6 +120,7 @@ th, tr, td{
 .numbers .sub{
   text-align: center;
   padding: 0 1em;
+  font-size: 1.2rem;
 }
 .numbers .sub a{
   color: white;
@@ -130,6 +131,9 @@ th, tr, td{
   font-size: 5rem;
 }
 
+.numbers table *{
+  border: 0px;
+}
 .blue{
   color: rgb(41, 151, 216);
 }
