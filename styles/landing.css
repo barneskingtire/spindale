@@ -119,7 +119,6 @@ th, tr, td{
 }
 .numbers .sub{
   text-align: center;
-  display: inline-flex;
   padding: 0 1em;
 }
 .numbers .sub a{
