@@ -114,6 +114,17 @@ th, tr, td{
 	height: 100%;
 }
 
+.numbers{
+  text-align: center;
+}
+.numbers h4{
+  display: inline-block;
+  padding: 0 1em;
+}
+.numbers h4 a{
+  color: white;
+}
+
 .ion-wifi, .ion-monitor, .ion-wrench{
   color: white;
   font-size: 5rem;
