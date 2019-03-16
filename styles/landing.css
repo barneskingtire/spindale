@@ -121,6 +121,7 @@ th, tr, td{
   text-align: center;
   display: inline-block;
   padding: 0 1em;
+  margin: 0;
   font-size: 1.2rem;
 }
 .numbers .sub a{

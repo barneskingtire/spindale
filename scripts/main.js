@@ -12,7 +12,7 @@ window.onload = function(){
 	window.addEventListener("scroll", function(){
 		let pointsHeight = document.getElementsByClassName('bullet-points')[0].offsetTop;
 		console.log('scroll happened to ' + this.scrollY + " - " + pointsHeight);
-		if(this.scrollY >= pointsHeight - 700){
+		if(this.scrollY >= pointsHeight - 1000){
 			popIcons();
 		}
 	});
